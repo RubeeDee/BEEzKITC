@@ -162,7 +162,7 @@ body {
 .form {
     margin-top: 5%;
     text-align: left;
-    -webkit-user-modify: read-write-plaintext-only;
+    /* -webkit-user-modify: read-write-plaintext-only; */
     font-size: 150%;
     font-weight: 500;
     position: absolute;
