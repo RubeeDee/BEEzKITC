@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bee's Dream Kitchen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper ">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="register.html">register</a>
+                </div>
+            </div>
+            
+            <div class="right-side">
+                <div class="brand">
+                    <div>BEEzKITC</div>
+                </div>    
+            </div>
+        </nav>
+
+        <div class="reg-container"></div>
+        <div class="form">
+            <form method="post" action="action.php">
+                First Name: <input type="text" name="firstname"><br>
+                Last Name: <input type="text" name="lastname"><br>
+                Date Of Birth: <input type="date" name="birthday"><br>
+                Email: <input type="email" name="email" required><br>
+                Password: <input type="password" name="password" min="5"><br>
+
+                Gender:<br>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female <br>
+                Nationality: <br>
+                    <select aria-placeholder="Nationality" name="Nationality">
+                        <option value="Nigerian" name="Nigerian">Nigerian</option>
+                        <option value="Cameroonian" name="Cameroonian">Cameroonian</option>
+                        <option value="Ghanian" name="Ghanian">Ghanian</option>
+                        <option value="Kenyan" name="Kenyan">Kenyan</option>
+                    </select><br>
+
+                Dish to learn:<br>
+                <input type="text" placeholder="Dish name"> <br>
+                Dish to Order:<br>
+                <input type="text" placeholder="Dish name"> <br>
+                Pets:<br>
+                <input type="checkbox" name="cat">cat
+                <input type="checkbox" name="dog">dog
+                <input type="checkbox" name="Snake">Snake<br>
+                <button><a href="submit.html">Submit</a></button>
+            </form>
+        </div>
+    </div>>
+    </body>
+</html>
